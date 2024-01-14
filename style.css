@@ -11,6 +11,9 @@ header{
 }
 
 /* Nav Section Code  */
+#home{
+    color: #FF6464;
+}
 nav{
     width: 100%;
     padding:20px 50px 20px 120px;
@@ -71,6 +74,9 @@ nav{
     font-size: 20px;
     margin-top: 5px;
 }
+.header-btn:hover{
+    background-color: green;
+}
 
 /* Recent post arae code */
 .recent-posts{
@@ -81,7 +87,7 @@ nav{
 #recent-posts-heading{
     display: flex;
     justify-content: space-between; 
-    width: 72%;
+    width: 75%;
     margin: 0 auto;
     padding: 20px 0;
     font-size: 20px;
@@ -113,14 +119,85 @@ nav{
 .post-section span, .post-section p{
     color: #21243D;
     margin: 15px 20px 15px 0;
-    font-size: 13px;
+    font-size: 20px;
     
 }
 .post-section p{
-    word-spacing: 2mm;
-    
+    font-size: 17px;
+    word-spacing: 2mm; 
 }
+
 .date{
     border-right: 1px solid #000000;
     padding-right: 20px;
+}
+
+/* feature section code */
+.featured-works{
+    padding: 15px 180px 25px ;
+}
+.featured-works h3{
+    padding: 10px 0 20px 0;
+}
+.designing-dashboards{
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+    
+    margin-bottom: 35px;
+    
+}
+.designing-dashboards-desc{
+    margin-left: 20px;
+}
+.designing-dashboards-img img{
+    width: 200px;
+}
+.designing-dashboards-desc h2{
+    color: #000000;
+    margin-bottom: 30px;
+}
+.designing-span{
+    display: flex;
+    align-items: center;
+}
+.designing-dashboards-desc .span-1{
+    color: #FFF;
+    background-color: #21243D;
+    font-size: 25px;
+    padding: 0 12px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.designing-dashboards-desc .span-2{
+    color: #8695A4;
+}
+.designing-dashboards-desc p{
+    padding: 15px 0;
+    color: #3D3F55;
+    font-size: 20px;
+}
+
+/* footer section code */
+footer{
+    padding: 25px 0;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.footer-icon img{
+    padding: 0 10px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* Responsive code start */
+@media only screen and (max-width: 640px) {
+     
 }
